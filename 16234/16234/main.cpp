@@ -2,106 +2,109 @@
 //  main.cpp
 //  16234
 //
-//  Created by sawon on 2021/01/14.
+//  Created by sawon on 2021/04/15.
 //
 
 #include <iostream>
+#include <vector>
+#include <queue>
+#include <math.h>
+
 using namespace std;
 
-int N,L,R;
-int cnt[1251][3];
-//0 그룹
-//1 인원
-//2 그룹개수
-int A[50][50];
-int visited[50][50];
-int num;
+int n;
+int l, r;
 
-void check(int x1, int y1, int x2, int y2)
+int map[50][50];
+bool visited[50][50];
+
+struct info{
+    int x, y;
+};
+
+int dx[4] = {1, 0, -1, 0};
+int dy[4] = {0, 1, 0, -1};
+
+bool bfs()
 {
-    int diff = A[y1][x1] - A[y2][x2];
+    info tmp;
+    int xx;
+    int yy;
+    int total;
+    queue<info> q;   //현재 정점부터 판단하는 큐
+    queue<info> result;   // 탐색 결과
+    bool flag = false;
     
-    if(diff<L || diff >R) return;
-
-    if(visited[y1][x1] == 0 && visited[y2][x2] == 0)
+    for(int i=0; i<n; i++)
+    for(int j=0; j<n; j++)
     {
-        visited[y1][x1] = ++num;
-        visited[y2][x2] = num;
-        cnt[num][0] = num;
-        cnt[num][1] = A[y1][x1] + A[y2][x2];
-        cnt[num][2] += 2;
-        return;
-    }
-    
-    int group1 = cnt[visited[y1][x1]][0];
-    int group2 = cnt[visited[y2][x2]][0];
-    
-    if(cnt[group1][0] == cnt[group2][0]) return ;
-    
-    if(visited[y1][x1] == 0)
-    {
-        visited[y1][x1] = group2;
-        cnt[group2][1] += A[y1][x1];
-        cnt[group2][2]++;
-        return;
-    }
-    
-    if(visited[y2][x2] == 0)
-    {
-        visited[y2][x2] = group1;
-        cnt[group1][1] += A[y2][x2];
-        cnt[group1][2]++;
-        return;
-    }
-    
-    if(group2 < group1)
-    {
-        cnt[group1][0] = group2;
-        cnt[group2][1] += cnt[group1][1];
-        cnt[group2][2] += cnt[group1][2];
-        return;
-    }
+        if(visited[i][j]) continue;
         
-    if(group2 > group1)
-    {
-        cnt[group2][0] = group1;
-        cnt[group1][1] += cnt[group2][1];
-        cnt[group1][2] += cnt[group2][2];
-        return;
+        total = 0;
+        
+        q.push(info{j, i});
+        visited[i][j] = true;
+        
+        while(!q.empty())
+        {
+            tmp = q.front();
+            q.pop();
+            
+            result.push(tmp);
+            total += map[tmp.y][tmp.x];
+            
+            for(int i=0; i<4; i++)
+            {
+                xx = tmp.x + dx[i];
+                yy = tmp.y + dy[i];
+                
+                if(xx < 0 || xx >=n || yy < 0 || yy >= n ) continue;
+                if(visited[yy][xx]) continue;
+                if(abs(map[tmp.y][tmp.x]-map[yy][xx]) < l ) continue;
+                if(abs(map[tmp.y][tmp.x]-map[yy][xx]) > r ) continue;
+                
+                flag = true;
+                
+                q.push(info{xx,yy});
+                visited[yy][xx] = true;
+            }
+        }
+        
+        int average = total/result.size();
+        
+        while(!result.empty())
+        {
+            tmp = result.front();
+            result.pop();
+            
+            map[tmp.y][tmp.x] = average;
+        }
     }
+    
+    return flag;
 }
 
-void checkAll()
+int solution()
 {
-    num = 0;
-    for(int j=0;j<N;j++)
-        for(int i=0;i<N;i++)
-        {
-            if(i+1<N-1) check(i,j,i+1,j);
-            if(j+1<N-1)check(i,j,i,j+1);
-            
-        }
     
-    
-    
-    for(int j=0;j<N;j++)
-        for(int i=0;i<N;i++)
-        {
-            
-            
-        }
-    
+    int cnt = 0;
+    while(true)
+    {
+        for(int i=0; i<n; i++) for(int j=0; j<n; j++) visited[i][j] = false;
+        if(!bfs()) return cnt;
+        cnt++;
+    }
 }
 
 int main(int argc, const char * argv[]) {
-
-    cin >> N >> L >> R;
     
-    for(int j=0;j<N;j++)
-        for(int i=0;i<N;i++)
-            cin >> A[j][i];
+    cin >> n >> l >> r;
     
+    for(int i=0; i<n; i++)
+    for(int j=0; j<n; j++)
+    cin >> map[i][j];
     
+    cout << solution();
     
     return 0;
 }
