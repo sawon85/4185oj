@@ -1,96 +1,89 @@
 package algorithm;
 
-import java.util.StringTokenizer;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Scanner;
 
 public class Main {
-
-	public static class info{
-		public int s, e, q;
-		
-		info(int s, int e, int q)
-		{this.s = s; this.e = e; this.q = q;}
-	}
 	
-	static int N, C, M;
-	static info[] list;
-	static int[] left;
-	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	
-	static public StringTokenizer read() throws IOException
+	static Scanner sc = new Scanner(System.in);
+	static int n, k;
+	static String sen[] = new String[50];
+	
+	static boolean visited[] = new boolean[26];
+	static int ans = 0;
+	
+	static void dfs(int cnt, int st)
 	{
-		return new StringTokenizer(br.readLine());
-		
-	}
-	public int compare(info i1, info i2) {
-		
-		if(i1.e < i2.e) return -1;
-		
-		if(i1.e > i2.e) return 1;
-		
-		return (i1.s <= i2.s) ? -1 : 1;
-		
-	}
-	
-	public static void main(String[] args) throws IOException
-	{
-		StringTokenizer st = read();
-		N = Integer.parseInt(st.nextToken());
-		C = Integer.parseInt(st.nextToken());
-		
-		st =read();
-		M = Integer.parseInt(st.nextToken());
-		
-		list = new info[M];
-		left = new int[N+1];
-		
-		for(int i=0; i<M; i++)
+		if(cnt == k)
 		{
-			st = read();
-			list[i] = new info(Integer.parseInt(st.nextToken()),Integer.parseInt(st.nextToken()),Integer.parseInt(st.nextToken()));
-		}
-		
-		Arrays.sort(list, new Comparator<info>(){
-			@Override
-			public int compare(info i1, info i2) {
-				
-				if(i1.e < i2.e) return -1;
-				
-				if(i1.e > i2.e) return 1;
-				
-				return (i1.s <= i2.s) ? -1 : 1;
+			
+			int result = 0;
+			
+			for(int i=0; i<n; i++)
+			{
+				result++;
+				for(int j=0; j<sen[i].length(); j++)
+				{
+					if(!visited[sen[i].charAt(j) - 'a']) {
+						result--;
+						break;
+					}
+				}
 				
 			}
-		});
-		
-		int ans = 0;
-		info now;
-		int add;
-		
-		for(int i=0; i<M; i++)
-		{
-			now = list[i];
 			
-			int min = 20000;
-			for(int j=now.s; j<now.e; j++) min = Math.min(min, C-left[j]);
+			ans = (ans < result) ? result : ans;
 			
-			if(min <= 0 || min == 20000) continue;
-			add = Math.min(min, now.q);
-			ans += add;
-			
-			for(int j=now.s; j<now.e; j++)  left[j] += add;
-			
+			return;
 		}
 		
-		System.out.print(ans);
+		for (int c = st; c < 26; c++)
+		{
+			if(visited[c]) continue;
+			visited[c] = true;
+			dfs(cnt+1, c+1);
+			visited[c] = false;
+
+		}
+   
+	}
+	
+	public static void main(String[] args) 
+	{
+		n = sc.nextInt();
+		k = sc.nextInt();
 		
+		for(int i = 0; i<n; i++)
+		{
+			
+			sen[i] = sc.next();
+			sen[i] = sen[i].replaceAll("[a,n,t,i,c]", "");
+		}
+		
+		if(k<5)
+		{
+			System.out.println("0");
+			return;
+		}
+		
+		if(k==26)
+		{
+			System.out.println(n);
+			return;
+		}
+		
+		visited['a' - 'a'] = true; 
+		visited['n' - 'a'] = true; 
+		visited['t' - 'a'] = true;
+		visited['i' - 'a'] = true;
+		visited['c' - 'a'] = true;
+		
+		k -= 5;
+		
+		
+		dfs(0,0);
+		
+		System.out.println(ans);
 	}
 
 }
