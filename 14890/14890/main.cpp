@@ -2,84 +2,135 @@
 //  main.cpp
 //  14890
 //
-//  Created by sawon on 2021/03/15.
+//  Created by sawon on 2021/04/25.
 //
 
 #include <iostream>
 using namespace std;
 
-int N,L;
-int map1[100][100];
-int map2[100][100];
-int map3[100][100];
-int map4[100][100];
+int map[100][100];
+int n, l;
 
-bool canGo(int n[10])
+void init()
 {
-    int tmp = n[0];
+    for(int i=0; i<n; i++)
+    for(int j=0; j<n; j++)
+    cin >> map[i][j];
+}
+
+bool sero(int col)
+{
     int cnt = 1;
-    
-    for(int i=1; i<N; i++)
+    int pre = map[0][col];
+    for(int i=1; i<n; i++)
     {
-        if(tmp!=n[i])
+        if(pre==map[i][col])
         {
-            if(tmp-1 == n[i])
-            {
-                i++;
-                for(;i<=i+L-1;i++) if(tmp-1 != n[i]) return false;
-                i = i + L-1;
-                tmp = n[L-1];
-            }
-            
-            else if(tmp+1 == n[i])
-            {
-                if(cnt < L) return false;
-            }
-            
-            
-            
+            cnt++;
+            continue;
         }
         
-        cnt++;
+        if(pre + 1 < map[i][col]|| pre -1  > map[i][col])
+        {
+            return false;
+        }
+        
+        if(pre + 1 == map[i][col])
+        {
+            if(cnt < l) return false;
+            
+            cnt = 1;
+            pre = map[i][col];
+            
+            continue;
+        }
+        
+        if(pre - 1 == map[i][col])
+        {
+            for(int j=0; j<l; j++)
+            {
+                if(i+j >= n) return false;
+                if(map[i+j][col]!= pre-1) return false;
+            }
+            
+            i += l-1;
+            pre = map[i][col];
+            cnt = 0;
+        }
         
     }
-    
-    cout <<endl;
-    for(int i=0; i<N; i++)
-    cout <<n[i] << " ";
     
     return true;
 }
 
-int run()
+bool garo(int row)
 {
-    int result = 0;
-    for(int i=0; i<N; i++)
+    int cnt = 1;
+    int pre = map[row][0];
+    for(int i=1; i<n; i++)
     {
-        if(canGo(map1[i])) result++;
-        else if(canGo(map3[i])) result++;
-        if(canGo(map2[i])) result++;
-        else if(canGo(map4[i])) result++;
+        if(pre==map[row][i])
+        {
+            cnt++;
+            continue;
+        }
+        
+        if(pre + 1 < map[row][i]|| pre -1  > map[row][i])
+        {
+            return false;
+        }
+        
+        if(pre + 1 == map[row][i])
+        {
+            if(cnt < l) return false;
+            
+            cnt = 1;
+            pre = map[row][i];
+            
+            continue;
+        }
+        
+        if(pre - 1 == map[row][i])
+        {
+            for(int j=0; j<l; j++)
+            {
+                if(i+j >= n) return false;
+                if(map[row][i+j]!= pre-1) return false;
+            }
+            
+            i += l-1;
+            cnt = 0;
+            pre = map[row][i];
+        }
+        
     }
     
-    return result;
+    return true;
+}
+
+int solution()
+{
+    int ans = 0;
+    for(int i=0; i<n; i++)
+    {
+        if(garo(i)) ans++;
+        if(sero(i)) ans++;
+    }
+    
+    return ans;
+    
 }
 
 
 int main(int argc, const char * argv[]) {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL); cout.tie(NULL);
     
-    cin >> N >> L;
+    cin >> n >> l;
+    init();
     
-    for(int i=0; i<N; i++)
-    for(int j=0; j<N; j++)
-    {
-        cin  >> map1[i][j];
-        map2[j][i] = map1[i][j];
-        map3[i][N-1-j] = map1[i][j];
-        map4[j][N-1-i] = map2[j][i];
-    }
+    cout << solution();
     
-    cout << run();
     
     
     return 0;
