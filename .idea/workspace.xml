@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83943499-6fe9-4dda-a83c-8d8338aee3f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1475.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11724" beforeDir="false" afterPath="$PROJECT_DIR$/11724" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11724/11724/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/11724/11724/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123" beforeDir="false" afterPath="$PROJECT_DIR$/123" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/123/123/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/123/123/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1260" beforeDir="false" afterPath="$PROJECT_DIR$/1260" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1260/1260/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1260/1260/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1463" beforeDir="false" afterPath="$PROJECT_DIR$/1463" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1463/1463/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1463/1463/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/American Tour" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/American Tour/American Tour.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour/American Tour.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/American Tour/American Tour/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour/American Tour/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/계단오르기" beforeDir="false" afterPath="$PROJECT_DIR$/계단오르기" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/계단오르기/계단오르기/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/계단오르기/계단오르기/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/미로탐색" beforeDir="false" afterPath="$PROJECT_DIR$/미로탐색" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/미로탐색/미로탐색/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/미로탐색/미로탐색/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/미친 로봇" beforeDir="false" afterPath="$PROJECT_DIR$/미친 로봇" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/미친 로봇/미친 로봇/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/미친 로봇/미친 로봇/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/사이클의 개수" beforeDir="false" afterPath="$PROJECT_DIR$/사이클의 개수" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/사이클의 개수/사이클의 개수/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/사이클의 개수/사이클의 개수/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/설탕배달" beforeDir="false" afterPath="$PROJECT_DIR$/설탕배달" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/설탕배달/설탕배달/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/설탕배달/설탕배달/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/숨바꼭질" beforeDir="false" afterPath="$PROJECT_DIR$/숨바꼭질" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/숨바꼭질/숨바꼭질/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/숨바꼭질/숨바꼭질/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/숫자 고르기" beforeDir="false" afterPath="$PROJECT_DIR$/숫자 고르기" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/숫자 고르기/숫자 고르기/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/숫자 고르기/숫자 고르기/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/야구" beforeDir="false" afterPath="$PROJECT_DIR$/야구" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/야구/야구/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/야구/야구/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/에어텔" beforeDir="false" afterPath="$PROJECT_DIR$/에어텔" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/에어텔/에어텔/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/에어텔/에어텔/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/연속합" beforeDir="false" afterPath="$PROJECT_DIR$/연속합" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/연속합/연속합/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/연속합/연속합/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/중량 제한" beforeDir="false" afterPath="$PROJECT_DIR$/중량 제한" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/중량 제한/중량 제한/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/중량 제한/중량 제한/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/창업" beforeDir="false" afterPath="$PROJECT_DIR$/창업" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/창업/창업/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/창업/창업/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/타임머신(벨만포드알고리즘)" beforeDir="false" afterPath="$PROJECT_DIR$/타임머신(벨만포드알고리즘)" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/타임머신(벨만포드알고리즘)/타임머신(벨만포드알고리즘)/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/타임머신(벨만포드알고리즘)/타임머신(벨만포드알고리즘)/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/포도주" beforeDir="false" afterPath="$PROJECT_DIR$/포도주" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/포도주/포도주/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/포도주/포도주/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1rkXwIYAbVSGaajmlXiT7syIcLp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.1342">
+    <configuration name="1342" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1342.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1475" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1475.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1342" />
+        <item itemvalue="Python.1475" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83943499-6fe9-4dda-a83c-8d8338aee3f7" name="Default Changelist" comment="" />
+      <created>1619521301131</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619521301131</updated>
+      <workItem from="1619521306908" duration="25000" />
+      <workItem from="1619522004720" duration="2694000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithm$1342.coverage" NAME="1342 Coverage Results" MODIFIED="1619524674942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm$1475.coverage" NAME="1475 Coverage Results" MODIFIED="1619524393666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
