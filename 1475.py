@@ -2,7 +2,7 @@
 visited= [0 for i in range (10)]
 
 
-def visit(s) :
+def visit(s):
     num = ord(s) - ord('0')
 
     if num == 9 :
@@ -12,7 +12,7 @@ def visit(s) :
 
 sentence = input()
 
-while sentence != "" :
+while sentence != "":
     s = sentence[-1:]
     sentence = sentence[:-1]
     visit(s)

@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83943499-6fe9-4dda-a83c-8d8338aee3f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1475.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1213.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1543.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11724" beforeDir="false" afterPath="$PROJECT_DIR$/11724" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11724/11724/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/11724/11724/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/123" beforeDir="false" afterPath="$PROJECT_DIR$/123" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/123/123/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/123/123/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1260" beforeDir="false" afterPath="$PROJECT_DIR$/1260" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1260/1260/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1260/1260/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1342.py" beforeDir="false" afterPath="$PROJECT_DIR$/1342.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1463" beforeDir="false" afterPath="$PROJECT_DIR$/1463" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1463/1463/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1463/1463/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1475.py" beforeDir="false" afterPath="$PROJECT_DIR$/1475.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/American Tour" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/American Tour/American Tour.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour/American Tour.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/American Tour/American Tour/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour/American Tour/main.cpp" afterDir="false" />
@@ -70,7 +74,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.1342">
+  <component name="RunManager" selected="Python.1213">
+    <configuration name="1213" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1213.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="1342" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,6 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1213" />
         <item itemvalue="Python.1342" />
         <item itemvalue="Python.1475" />
       </list>
@@ -131,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1619521301131</updated>
       <workItem from="1619521306908" duration="25000" />
-      <workItem from="1619522004720" duration="2694000" />
+      <workItem from="1619522004720" duration="5727000" />
     </task>
     <servers />
   </component>
@@ -150,7 +177,8 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Algorithm$1342.coverage" NAME="1342 Coverage Results" MODIFIED="1619524674942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm$1342.coverage" NAME="1342 Coverage Results" MODIFIED="1619613127599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm$1475.coverage" NAME="1475 Coverage Results" MODIFIED="1619524393666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm$1213.coverage" NAME="1213 Coverage Results" MODIFIED="1619614498422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
