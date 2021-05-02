@@ -6,84 +6,33 @@ public class Main {
 	
 	
 	static Scanner sc = new Scanner(System.in);
-	static int n, k;
-	static String sen[] = new String[50];
 	
-	static boolean visited[] = new boolean[26];
-	static int ans = 0;
-	
-	static void dfs(int cnt, int st)
-	{
-		if(cnt == k)
-		{
-			
-			int result = 0;
-			
-			for(int i=0; i<n; i++)
+	 public static void main(String[] args)
+	 {
+		 
+		 String sentence = sc.nextLine();
+		 
+		 
+		 int l = 0, r=sentence.length()-1;
+		 
+		 while(l<r)
+		 {
+			 
+			 while(sentence.charAt(l)!='(' && l<r) 
 			{
-				result++;
-				for(int j=0; j<sen[i].length(); j++)
-				{
-					if(!visited[sen[i].charAt(j) - 'a']) {
-						result--;
-						break;
-					}
-				}
-				
+				 l++;
 			}
-			
-			ans = (ans < result) ? result : ans;
-			
-			return;
-		}
-		
-		for (int c = st; c < 26; c++)
-		{
-			if(visited[c]) continue;
-			visited[c] = true;
-			dfs(cnt+1, c+1);
-			visited[c] = false;
-
-		}
-   
-	}
-	
-	public static void main(String[] args) 
-	{
-		n = sc.nextInt();
-		k = sc.nextInt();
-		
-		for(int i = 0; i<n; i++)
-		{
-			
-			sen[i] = sc.next();
-			sen[i] = sen[i].replaceAll("[a,n,t,i,c]", "");
-		}
-		
-		if(k<5)
-		{
-			System.out.println("0");
-			return;
-		}
-		
-		if(k==26)
-		{
-			System.out.println(n);
-			return;
-		}
-		
-		visited['a' - 'a'] = true; 
-		visited['n' - 'a'] = true; 
-		visited['t' - 'a'] = true;
-		visited['i' - 'a'] = true;
-		visited['c' - 'a'] = true;
-		
-		k -= 5;
-		
-		
-		dfs(0,0);
-		
-		System.out.println(ans);
-	}
+			 while(sentence.charAt(r)!=')'&& l<r) r--;
+			 
+			 if(l>r) break;
+			 
+			 System.out.println(sentence.substring(0,l) + sentence.substring(l+1,r) +sentence.substring(r+1));
+			 l++;
+			 r--;
+			 
+			 
+		 }
+		 
+	 }
 
 }
