@@ -2,22 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83943499-6fe9-4dda-a83c-8d8338aee3f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1213.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1543.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech/fintech.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech/fintech.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech/fintech.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech/fintech.xcodeproj/project.xcworkspace/xcuserdata/choesawon.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech/fintech.xcodeproj/xcuserdata/choesawon.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fintech/fintech/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kakao/kakao.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kakao/kakao.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kakao/kakao.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kakao/kakao.xcodeproj/project.xcworkspace/xcuserdata/choesawon.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kakao/kakao.xcodeproj/xcuserdata/choesawon.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kakao/kakao/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11724" beforeDir="false" afterPath="$PROJECT_DIR$/11724" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11724/11724/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/11724/11724/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1213.py" beforeDir="false" afterPath="$PROJECT_DIR$/1213.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/123" beforeDir="false" afterPath="$PROJECT_DIR$/123" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/123/123/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/123/123/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1260" beforeDir="false" afterPath="$PROJECT_DIR$/1260" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1260/1260/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1260/1260/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1342.py" beforeDir="false" afterPath="$PROJECT_DIR$/1342.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1463" beforeDir="false" afterPath="$PROJECT_DIR$/1463" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1463/1463/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1463/1463/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1475.py" beforeDir="false" afterPath="$PROJECT_DIR$/1475.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/American Tour" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/American Tour/American Tour.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour/American Tour.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/American Tour/American Tour/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour/American Tour/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers_징검다리건너기/programmers_징검다리건너기.xcodeproj/project.xcworkspace/xcuserdata/choesawon.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/programmers_징검다리건너기/programmers_징검다리건너기.xcodeproj/project.xcworkspace/xcuserdata/choesawon.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers_징검다리건너기/programmers_징검다리건너기/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programmers_징검다리건너기/programmers_징검다리건너기/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/계단오르기" beforeDir="false" afterPath="$PROJECT_DIR$/계단오르기" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/계단오르기/계단오르기/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/계단오르기/계단오르기/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/미로탐색" beforeDir="false" afterPath="$PROJECT_DIR$/미로탐색" afterDir="false" />
@@ -159,6 +170,7 @@
       <updated>1619521301131</updated>
       <workItem from="1619521306908" duration="25000" />
       <workItem from="1619522004720" duration="5727000" />
+      <workItem from="1623888903761" duration="2106000" />
     </task>
     <servers />
   </component>
@@ -175,10 +187,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algorithm$1342.coverage" NAME="1342 Coverage Results" MODIFIED="1619613127599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Algorithm$1475.coverage" NAME="1475 Coverage Results" MODIFIED="1619524393666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Algorithm$1213.coverage" NAME="1213 Coverage Results" MODIFIED="1619614498422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Algorithm$1213.coverage" NAME="1213 Coverage Results" MODIFIED="1623890600920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
