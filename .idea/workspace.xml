@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83943499-6fe9-4dda-a83c-8d8338aee3f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fintech/fintech.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fintech/fintech.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fintech/fintech.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fintech/fintech.xcodeproj/project.xcworkspace/xcuserdata/choesawon.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fintech/fintech.xcodeproj/xcuserdata/choesawon.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fintech/fintech/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kakao/kakao.xcodeproj/project.pbxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kakao/kakao.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kakao/kakao.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kakao/kakao.xcodeproj/project.xcworkspace/xcuserdata/choesawon.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kakao/kakao.xcodeproj/xcuserdata/choesawon.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kakao/kakao/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11724" beforeDir="false" afterPath="$PROJECT_DIR$/11724" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/11724/11724/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/11724/11724/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1213.py" beforeDir="false" afterPath="$PROJECT_DIR$/1213.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/123" beforeDir="false" afterPath="$PROJECT_DIR$/123" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/123/123/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/123/123/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1260" beforeDir="false" afterPath="$PROJECT_DIR$/1260" afterDir="false" />
@@ -27,8 +14,11 @@
       <change beforePath="$PROJECT_DIR$/American Tour" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/American Tour/American Tour.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour/American Tour.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/American Tour/American Tour/main.swift" beforeDir="false" afterPath="$PROJECT_DIR$/American Tour/American Tour/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers_징검다리건너기/programmers_징검다리건너기.xcodeproj/project.xcworkspace/xcuserdata/choesawon.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/programmers_징검다리건너기/programmers_징검다리건너기.xcodeproj/project.xcworkspace/xcuserdata/choesawon.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programmers_징검다리건너기/programmers_징검다리건너기/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/programmers_징검다리건너기/programmers_징검다리건너기/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/Solutoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/algorithm/Solutoin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/algorithm/baekjoon_1647.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/algorithm/baekjoon_1647.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/algorithm/baekjoon_2617.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/algorithm/baekjoon_2617.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/algorithm/baekjoon_2617_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/algorithm/baekjoon_2617_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/계단오르기" beforeDir="false" afterPath="$PROJECT_DIR$/계단오르기" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/계단오르기/계단오르기/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/계단오르기/계단오르기/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/미로탐색" beforeDir="false" afterPath="$PROJECT_DIR$/미로탐색" afterDir="false" />
@@ -171,6 +161,8 @@
       <workItem from="1619521306908" duration="25000" />
       <workItem from="1619522004720" duration="5727000" />
       <workItem from="1623888903761" duration="2106000" />
+      <workItem from="1631595760798" duration="82000" />
+      <workItem from="1631692881301" duration="24000" />
     </task>
     <servers />
   </component>

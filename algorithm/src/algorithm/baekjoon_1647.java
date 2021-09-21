@@ -75,7 +75,6 @@ public class baekjoon_1647 {
 				reset(group[temp.to], group[temp.from]);
 				ans += temp.w;
 			
-				
 			} 
 			
 			if(visited==n-1 && set.size()==1) return ans;

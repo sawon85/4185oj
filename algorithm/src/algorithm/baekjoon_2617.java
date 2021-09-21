@@ -23,13 +23,13 @@ public class baekjoon_2617 {
 	static void dfs(int st, int cnt, ArrayList<Integer>[] arr) {
 		
 		if(arr[st].size() == 0) {
-			max += cnt;
 			return;
 		}
 		
 		for(Integer ball : arr[st]) {
 			if(visited[ball]) continue;
 			visited[ball] = true;
+			max++;
 			dfs(ball, cnt+1, arr);
 		}
 		
@@ -78,7 +78,6 @@ public class baekjoon_2617 {
 			if(max >= (n+1)/2) ans++;
 		}
 		
-
 		System.out.println(ans);
 	}
 
