@@ -13,25 +13,17 @@ public class baekjoon_11058 {
 	static BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 	static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 	static String s; static StringTokenizer st;
-	static long[][] dp = new long[100+1][2];
+	static long[] dp = new long[100+1];
 	
 	static void solution(int n) {
-		
-		dp[1][0] = 1; dp[1][1] = 0;
-		
-		
-		for(int i=2; i<=n; i++) {
-			
-			dp[i][0] = Math.max(dp[i-1][0]+1,dp[i-1][0]+dp[i-1][1]);
-			dp[i][1] = dp[i-1][1];
-			
-			if(i>4) {
-				if(dp[i][0] <= dp[i-3][0]*2) {
-					dp[i][0] = dp[i-3][0]*2;
-					dp[i][1] = dp[i-3][0];
+
+		for(int i=1; i<n+1; i++) {
+			dp[i] = dp[i-1]+1;
+			if(i>6) {
+				for(int j=2; j<5; j++) {
+					dp[i] = Math.max(dp[i], dp[i-(j+1)]*j);
 				}
 			}
-			
 		}
 	}
 	
@@ -44,7 +36,7 @@ public class baekjoon_11058 {
 	     int n = Integer.parseInt(br.readLine());
 	     solution(n);
 	     
-	     System.out.println(dp[n][0]);
+	     System.out.println(dp[n]);
 	}
 
 }
